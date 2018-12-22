@@ -1,11 +1,11 @@
 {
-  "name": "msbios/authentication-hybrid-resource-doctrine",
-  "description": "MSBios Authentication Hybrid Doctrine",
+  "name": "msbios/content-resource-doctrine.git",
+  "description": "MSBios Content Resource Doctrine",
   "license": "MIT",
   "keywords": [
     "php"
   ],
-  "homepage": "https://github.com/msbios/msbios-authentication-hybrid-resource-doctrine",
+  "homepage": "https://github.com/msbios/msbios-content-resource-doctrine",
   "minimum-stability": "stable",
   "authors": [
     {
