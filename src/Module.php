@@ -15,6 +15,8 @@ class Module extends \MSBios\Module
     const VERSION = '1.0.2';
 
     /**
+     * @inheritdoc
+     *
      * @return string
      */
     protected function getDir()
@@ -23,6 +25,8 @@ class Module extends \MSBios\Module
     }
 
     /**
+     * @inheritdoc
+     *
      * @return string
      */
     protected function getNamespace()
