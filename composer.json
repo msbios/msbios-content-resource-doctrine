@@ -23,6 +23,9 @@
       "MSBiosTest\\Content\\Resource\\Doctrine\\": "tests/"
     }
   },
+  "require": {
+    "msbios/resource-doctrine": "^1.0"
+  },
   "require-dev": {
     "msbios/test": "^1.0",
     "msbios/debug": "^1.0"
@@ -35,7 +38,6 @@
       "phpunit --colors=always"
     ],
     "alter": "./vendor/bin/doctrine-module orm:schema-tool:update --force",
-    "commit": "git add . && git commit -a -m \"Lazy Composer Commiter\" && git push",
     "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
     "upload-coverage": "coveralls -v"
   },
@@ -43,8 +45,5 @@
     "zf": {
       "component": "MSBios\\Content\\Resource\\Doctrine"
     }
-  },
-  "require": {
-    "msbios/resource-doctrine": "^1.0"
   }
 }
