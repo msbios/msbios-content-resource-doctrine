@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1951da364cd528a51b9247aca727470",
+    "content-hash": "87d5156e14675a407b787258ebccaccb",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1212,17 +1212,64 @@
             "time": "2018-07-26T12:16:35+00:00"
         },
         {
-            "name": "msbios/doctrine",
-            "version": "v1.0.13",
+            "name": "msbios/content-resource",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/msbios/msbios-doctrine.git",
-                "reference": "714e09046f2e96d84dd54d8d5686734325b121fb"
+                "url": "https://github.com/msbios/msbios-content-resource.git",
+                "reference": "b769edd024649d8894ba9373f498762ea77fd005"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/714e09046f2e96d84dd54d8d5686734325b121fb",
-                "reference": "714e09046f2e96d84dd54d8d5686734325b121fb",
+                "url": "https://api.github.com/repos/msbios/msbios-content-resource/zipball/b769edd024649d8894ba9373f498762ea77fd005",
+                "reference": "b769edd024649d8894ba9373f498762ea77fd005",
+                "shasum": ""
+            },
+            "require-dev": {
+                "msbios/debug": "^1.0",
+                "msbios/resource": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Content\\Resource"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Content\\Resource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Content Resource",
+            "homepage": "https://github.com/msbios/msbios-content-resource",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-12-27T09:24:13+00:00"
+        },
+        {
+            "name": "msbios/doctrine",
+            "version": "v1.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-doctrine.git",
+                "reference": "063a7360d594bd507f67ba6c3c29416bae7bb51f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/063a7360d594bd507f67ba6c3c29416bae7bb51f",
+                "reference": "063a7360d594bd507f67ba6c3c29416bae7bb51f",
                 "shasum": ""
             },
             "require": {
@@ -1262,7 +1309,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-12-04T16:34:01+00:00"
+            "time": "2018-12-27T12:13:27+00:00"
         },
         {
             "name": "msbios/form",
@@ -3617,53 +3664,6 @@
             "time": "2018-12-22T16:38:11+00:00"
         },
         {
-            "name": "msbios/content-resource",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/msbios/msbios-content-resource.git",
-                "reference": "b769edd024649d8894ba9373f498762ea77fd005"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-content-resource/zipball/b769edd024649d8894ba9373f498762ea77fd005",
-                "reference": "b769edd024649d8894ba9373f498762ea77fd005",
-                "shasum": ""
-            },
-            "require-dev": {
-                "msbios/debug": "^1.0",
-                "msbios/resource": "^1.0",
-                "msbios/test": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "zf": {
-                    "component": "MSBios\\Content\\Resource"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "MSBios\\Content\\Resource\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Judzhin Miles",
-                    "email": "info@msbios.com"
-                }
-            ],
-            "description": "MSBios Content Resource",
-            "homepage": "https://github.com/msbios/msbios-content-resource",
-            "keywords": [
-                "php"
-            ],
-            "time": "2018-12-27T09:24:13+00:00"
-        },
-        {
             "name": "msbios/debug",
             "version": "v1.0.4",
             "source": {
@@ -5596,20 +5596,21 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "0df1908962e7a3071564e857d86874dad1ef204a"
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/0df1908962e7a3071564e857d86874dad1ef204a",
-                "reference": "0df1908962e7a3071564e857d86874dad1ef204a",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0"
+                "php": "^5.3.3 || ^7.0",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
@@ -5642,7 +5643,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2018-01-29T19:49:41+00:00"
+            "time": "2018-12-25T11:19:39+00:00"
         },
         {
             "name": "zendframework/zend-console",
