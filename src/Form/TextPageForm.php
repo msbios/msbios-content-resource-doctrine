@@ -9,10 +9,10 @@ use MSBios\Content\Resource\Form\TextPageForm as DefaultTextPageForm;
 use MSBios\Doctrine\Form\Element\PublishingState;
 
 /**
- * Class TestPageForm
+ * Class TextPageForm
  * @package MSBios\Content\Resource\Doctrine\Form
  */
-class TestPageForm extends DefaultTextPageForm
+class TextPageForm extends DefaultTextPageForm
 {
     /**
      * @inheritdoc

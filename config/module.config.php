@@ -7,6 +7,7 @@
 namespace MSBios\Content\Resource\Doctrine;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
+use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'doctrine' => [
@@ -24,6 +25,16 @@ return [
                         Module::class,
                 ]
             ]
+        ]
+    ],
+    'form_elements' => [
+        'factories' => [
+            Form\TextPageForm::class =>
+                InvokableFactory::class
+        ],
+        'aliases' => [
+            \MSBios\Content\Resource\Form\TextPageForm::class =>
+                Form\TextPageForm::class
         ]
     ]
 ];
