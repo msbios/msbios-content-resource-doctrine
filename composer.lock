@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f73027c7cd9c343eacb58457ba769ffa",
+    "content-hash": "e1951da364cd528a51b9247aca727470",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3565,6 +3565,103 @@
                 "testing"
             ],
             "time": "2018-10-02T21:52:37+00:00"
+        },
+        {
+            "name": "msbios/content",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-content.git",
+                "reference": "3b48a86c53387e682f5ef95dc6355ed7ab59788c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-content/zipball/3b48a86c53387e682f5ef95dc6355ed7ab59788c",
+                "reference": "3b48a86c53387e682f5ef95dc6355ed7ab59788c",
+                "shasum": ""
+            },
+            "require": {
+                "msbios/content-resource": "^1.0"
+            },
+            "require-dev": {
+                "msbios/application": "^1.0",
+                "msbios/debug": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Content"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Content\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Content",
+            "homepage": "https://github.com/msbios/msbios-content",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-12-22T16:38:11+00:00"
+        },
+        {
+            "name": "msbios/content-resource",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-content-resource.git",
+                "reference": "b769edd024649d8894ba9373f498762ea77fd005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-content-resource/zipball/b769edd024649d8894ba9373f498762ea77fd005",
+                "reference": "b769edd024649d8894ba9373f498762ea77fd005",
+                "shasum": ""
+            },
+            "require-dev": {
+                "msbios/debug": "^1.0",
+                "msbios/resource": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Content\\Resource"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Content\\Resource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Content Resource",
+            "homepage": "https://github.com/msbios/msbios-content-resource",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-12-27T09:24:13+00:00"
         },
         {
             "name": "msbios/debug",

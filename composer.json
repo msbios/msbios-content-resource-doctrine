@@ -27,6 +27,7 @@
     "msbios/resource-doctrine": "^1.0"
   },
   "require-dev": {
+    "msbios/content": "^1.0",
     "msbios/test": "^1.0",
     "msbios/debug": "^1.0"
   },
